@@ -1,0 +1,40 @@
+name: Build Printables
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - README.md
+      - WALL_SHEET.md
+      - irish_driving_test_2026_safe_anki.tsv
+      - irish_driving_test_easy_mode_core30.tsv
+      - scripts/build_printables.py
+      - .github/workflows/build-printables.yml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PDF dependency
+        run: python -m pip install --upgrade pip reportlab
+
+      - name: Build README wall sheet and PDFs
+        run: python scripts/build_printables.py
+
+      - name: Upload printables
+        uses: actions/upload-artifact@v4
+        with:
+          name: irish-driving-test-printables
+          path: |
+            README.md
+            WALL_SHEET.md
+            printables/*.pdf

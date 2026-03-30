@@ -306,3 +306,229 @@ My best evidence-based conclusion is:
 - they are **not** the official RSA-published practical driving test question bank
 - they are still worth studying because they map closely to what the RSA says is examined
 - they should be cleaned up slightly for 2026 accuracy, especially around speed limits
+
+## Printables
+
+- `WALL_SHEET.md` is the compact wall version built from the easy 30-card deck.
+- `printables/irish-driving-test-wall-sheet.pdf` is the wall PDF.
+- `printables/irish-driving-test-all-questions.pdf` is the full cleaned question-set PDF.
+- `python3 scripts/build_printables.py` regenerates the wall sheet, PDFs, and the question appendix below.
+- `.github/workflows/build-printables.yml` rebuilds the printables in GitHub Actions and uploads them as an artifact.
+
+## All Questions
+
+<!-- ALL_QUESTIONS_START -->
+
+Generated from `irish_driving_test_2026_safe_anki.tsv`.
+
+This is the full cleaned 2026-safe question set grouped by topic.
+
+### Speed Limits
+
+- **What speed limit usually applies in a built-up area in Ireland?**
+  Answer: 50 km/h unless a different posted limit applies.
+- **Since 7 February 2025, what is the default speed limit on many rural local roads?**
+  Answer: 60 km/h.
+- **What speed limit commonly applies on regional roads?**
+  Answer: 80 km/h unless signs show otherwise.
+- **What speed limit commonly applies on national roads?**
+  Answer: 100 km/h unless signs show otherwise.
+- **What speed limit commonly applies on motorways?**
+  Answer: 120 km/h unless signs show otherwise.
+- **If a posted speed limit is different from the default limit, which must you obey?**
+  Answer: The posted speed limit.
+
+### Right Of Way
+
+- **Who has right of way at a roundabout?**
+  Answer: Traffic already on the roundabout.
+- **Who has priority at an unmarked crossroads where roads are of equal importance?**
+  Answer: Give way to traffic from the right and to traffic already on the junction.
+
+### Junctions
+
+- **What must you do at a stop sign?**
+  Answer: Come to a complete stop and yield before moving off.
+- **What does a yield sign mean?**
+  Answer: Give way to traffic with priority and stop if necessary.
+
+### Traffic Lights
+
+- **What does a flashing amber traffic light mean?**
+  Answer: Proceed with caution only if the crossing or junction is clear; pedestrians have priority.
+- **What should you do at a steady amber traffic light?**
+  Answer: Stop unless it is unsafe to do so.
+- **What do flashing red lights at a railway crossing mean?**
+  Answer: Stop; a train is approaching or the crossing is operating.
+- **What is a filter light?**
+  Answer: A green or amber arrow that lets you proceed in that direction if it is safe and the way is clear.
+- **When should you use dipped headlights?**
+  Answer: When meeting traffic, following closely, on continuously lit roads, and in fog, snow, dusk, dawn, or poor visibility.
+- **What should you do if you are dazzled by headlights?**
+  Answer: Slow down and stop if necessary; watch for pedestrians or cyclists and look towards the left verge if the dazzle is from oncoming traffic.
+
+### Crossings
+
+- **What do white zig-zag lines at a zebra crossing mean?**
+  Answer: No parking and no overtaking.
+- **How far from a pedestrian crossing should you not park?**
+  Answer: Within 15 metres before it or 5 metres after it.
+- **What must you do when a school warden shows the STOP sign?**
+  Answer: Stop and wait until children have crossed and the warden allows traffic to move again.
+- **What is the difference between a pelican crossing and a zebra crossing?**
+  Answer: A pelican crossing is controlled by lights; a zebra crossing uses flashing amber beacons and pedestrian priority.
+- **What does an island in the middle of a pedestrian crossing mean?**
+  Answer: Treat each side of a zebra crossing as separate; a staggered pelican crossing is also treated as two crossings.
+
+### Road Markings
+
+- **What are the rules for a yellow box junction?**
+  Answer: Do not enter unless you can clear it without stopping, except when turning right and waiting for a safe gap without blocking traffic with priority.
+- **What does a broken white line in the centre of the road mean?**
+  Answer: You may cross it only if it is safe to do so.
+- **What does a continuous white line in the centre of the road mean?**
+  Answer: Keep left and do not cross it except for access or in an emergency.
+- **What do double broken white lines along the centre of the road mean?**
+  Answer: They warn that continuous white lines are ahead; do not cross them unless it is safe.
+- **If there is a continuous and a broken white line together, which line do you obey?**
+  Answer: The line nearest to you.
+- **What does a broken yellow line along the side of the road mean?**
+  Answer: It marks a hard shoulder, normally for pedestrians and cyclists; you may pull in briefly to let faster traffic pass if it is safe.
+- **What does a single continuous yellow line along the side of the road mean?**
+  Answer: No parking during the times shown.
+- **What do double continuous yellow lines at the side of the road mean?**
+  Answer: No parking at any time.
+- **What are the road markings for no entry?**
+  Answer: A continuous and a broken white line with the words NO ENTRY.
+
+### Parking
+
+- **How far from a junction should you not park?**
+  Answer: Within 5 metres of the junction.
+- **How close to the kerb should you normally park?**
+  Answer: Within 45 cm.
+
+### Signs
+
+- **What shape are warning signs in Ireland?**
+  Answer: Diamond-shaped with a yellow background.
+- **What shape are most regulatory signs in Ireland?**
+  Answer: Circular.
+- **What colour are motorway signs?**
+  Answer: Blue.
+- **What colour are national road signs?**
+  Answer: Green.
+- **What colour are regional and local road signs?**
+  Answer: White with black text.
+
+### Overtaking
+
+- **When another driver is overtaking you, what must you not do?**
+  Answer: Increase your speed.
+- **When may you overtake on the left?**
+  Answer: When the driver ahead has moved right and signalled right, when you have signalled left, or in slow-moving traffic where the left lane is moving faster.
+- **Give examples of places where you should not overtake.**
+  Answer: Near a bend, hill crest, hump-back bridge, continuous white line, entrance, taxi rank, or where the road is too narrow or visibility is poor.
+
+### Motorway
+
+- **When may you use the hard shoulder on a motorway?**
+  Answer: In an emergency only.
+- **Which lane should you normally use on a motorway?**
+  Answer: The left-hand lane unless overtaking or directed otherwise by signs or road markings.
+- **What should you do if you break down on a motorway?**
+  Answer: Pull onto the hard shoulder if possible, use your hazard lights, get help, and do not attempt roadside repairs unless it is necessary and safe.
+
+### Safe Driving
+
+- **What is the 2-second rule?**
+  Answer: Leave at least 2 seconds in dry conditions, at least 4 seconds in wet conditions, and more in ice or poor conditions.
+- **How does wet weather affect braking distance?**
+  Answer: It can at least double braking distance.
+- **What is aquaplaning?**
+  Answer: When a layer of water causes the tyres to lose contact with the road, reducing steering and braking control.
+- **What is tailgating?**
+  Answer: Driving too close to the vehicle in front.
+
+### Technical Checks
+
+- **What is the legal minimum tyre tread depth for a car?**
+  Answer: 1.6 mm across the central three-quarters of the tread.
+- **Name 3 technical checks you should be able to describe for the test.**
+  Answer: Examples: tyres, lights and indicators, oil, coolant, brake fluid, brakes, steering, or horn.
+
+### Secondary Controls
+
+- **Name 3 secondary controls you may be asked to demonstrate on the test.**
+  Answer: Examples: wipers, washers, demister, rear window heater, lights, or hazard lights.
+
+### Learner Rules
+
+- **What is the minimum age for a Category B learner permit?**
+  Answer: 17.
+- **What must a learner driver display on the vehicle?**
+  Answer: L-plates on the front and rear.
+- **Must a learner driver be accompanied?**
+  Answer: Yes. By someone with a full, valid licence in the same category for at least 2 years.
+
+### Safety Rules
+
+- **What is the seatbelt rule in a car?**
+  Answer: Everyone must wear a seatbelt where one is fitted; the driver is responsible for passengers under 17.
+- **What is the rule on mobile phones while driving?**
+  Answer: It is illegal to hold or use a hand-held mobile phone while driving; the safest option is not to use any phone while driving.
+- **What is the alcohol limit for learner, novice, and professional drivers?**
+  Answer: 20 mg of alcohol per 100 ml of blood.
+- **What is the alcohol limit for most other drivers?**
+  Answer: 50 mg of alcohol per 100 ml of blood.
+- **What should you do before opening your car door?**
+  Answer: Check mirrors, look over your shoulder, and watch for cyclists or pedestrians.
+
+### Bus Lanes
+
+- **What is the difference between a with-flow and a contra-flow bus lane?**
+  Answer: A with-flow lane runs with the traffic and can be used by buses, bicycles and taxis; a contra-flow lane runs against the traffic and is generally only for buses unless signs also allow cyclists.
+
+### Positioning
+
+- **What position should you take for a right turn in a one-way street?**
+  Answer: As close as practicable to the right-hand side.
+
+### Manoeuvres
+
+- **Where would you never make a U-turn?**
+  Answer: In a one-way street, where continuous white lines apply, or where a sign prohibits it.
+
+### Dual Carriageway
+
+- **When following the road ahead on a multi-lane dual carriageway, which lane should you normally use?**
+  Answer: Lane 1, the left-hand driving lane, unless signs or road markings say otherwise.
+
+### Vehicle Control
+
+- **What is coasting and why is it dangerous?**
+  Answer: Coasting is driving with the clutch down or in neutral; it reduces your control of the vehicle.
+
+### Vehicle
+
+- **What is the purpose of the NCT?**
+  Answer: It is a basic roadworthiness and safety check for vehicles over 4 years old.
+
+### Awareness
+
+- **What should you look out for on country roads?**
+  Answer: Pedestrians, cyclists, animals, mud, concealed entrances, bends, and slow-moving farm machinery.
+
+### Penalties
+
+- **What is the normal penalty point disqualification threshold for most fully licensed drivers?**
+  Answer: 12 points in a 3-year period.
+- **What is the lower penalty point disqualification threshold for learner and novice drivers?**
+  Answer: 7 points in a 3-year period.
+
+### Signals
+
+- **When may you use your horn?**
+  Answer: Only to warn other road users of danger; do not use it in a built-up area between 11:30 pm and 7:00 am unless there is an emergency.
+
+<!-- ALL_QUESTIONS_END -->
