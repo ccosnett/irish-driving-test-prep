@@ -146,6 +146,7 @@ These are the highest-yield oral-question areas and they also reinforce the prac
 Use this file for your main import:
 
 - `irish_driving_test_2026_safe_anki.tsv`
+- `irish_driving_test_2026_visual_anki.tsv`
 
 It is a cleaned version of the current notes with:
 
@@ -153,6 +154,12 @@ It is a cleaned version of the current notes with:
 - corrected speed-limit cards
 - deduped overlap
 - Anki tags in the third field
+
+The visual deck:
+
+- adds an image to each card
+- uses images copied from `stephens_materials/`
+- is best when you want stronger visual memory for signs and markings
 
 ### Recommended deck structure
 
@@ -181,6 +188,8 @@ Use three decks or subdecks:
 
 `irish_driving_test_2026_safe_anki.tsv` is the better file to import first.
 
+`irish_driving_test_2026_visual_anki.tsv` is the version with images embedded in the answer side.
+
 Recommended import settings:
 
 - note type: `Basic`
@@ -193,6 +202,11 @@ Recommended import settings:
 Recommended first step after import:
 
 - suspend or delete older cards from `irish_driving_theory_anki.txt` that conflict with the cleaned 2026 deck
+
+Media note:
+
+- the image files for the visual deck were copied into `~/Library/Application Support/Anki2/User 1/collection.media/` on this Mac
+- if you use AnkiWeb and sync, the media should sync too
 
 ## 10-Day Sprint Plan
 
