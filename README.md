@@ -149,6 +149,7 @@ Use this file for your main import:
 - `irish_driving_test_2026_visual_anki.tsv`
 - `irish_driving_test_2026_web_remote_anki.tsv`
 - `irish_driving_test_easy_mode_core30.tsv`
+- `irish_driving_test_easy_mode_pics.tsv`
 
 It is a cleaned version of the current notes with:
 
@@ -175,6 +176,13 @@ The easy-mode deck:
 - uses shorter prompts
 - adds a memory cue before the answer
 - is meant for fast recall when full wording feels heavy
+
+The easy-mode picture deck:
+
+- keeps the same 30-card easy deck
+- adds a picture to the front of each card
+- uses Irish sign images for the sign-heavy cards
+- uses conceptual images for the rule cards
 
 ### Recommended deck structure
 
@@ -208,6 +216,8 @@ Use three decks or subdecks:
 `irish_driving_test_2026_web_remote_anki.tsv` is the version that points each card at a web image URL instead of a local image file.
 
 `irish_driving_test_easy_mode_core30.tsv` is the simplest file to use when you are tired or overloaded.
+
+`irish_driving_test_easy_mode_pics.tsv` is the easiest picture-cued version of the short deck.
 
 Recommended import settings:
 
