@@ -1,0 +1,30 @@
+Built-up area speed limit	Memory cue: town = 50. <br>Test answer: 50 km/h unless signs say otherwise.	easy_mode core30 speed_limits
+Rural local road speed limit	Memory cue: local rural = 60 now. <br>Test answer: 60 km/h on many rural local roads.	easy_mode core30 speed_limits current_2026
+Regional road speed limit	Memory cue: regional = 80. <br>Test answer: 80 km/h unless signs say otherwise.	easy_mode core30 speed_limits
+National road speed limit	Memory cue: national = 100. <br>Test answer: 100 km/h unless signs say otherwise.	easy_mode core30 speed_limits
+Motorway speed limit	Memory cue: motorway = 120. <br>Test answer: 120 km/h unless signs say otherwise.	easy_mode core30 speed_limits
+Posted limit rule	Memory cue: sign beats default. <br>Test answer: You must obey the posted speed limit.	easy_mode core30 speed_limits
+Roundabout priority	Memory cue: already on = priority. <br>Test answer: Traffic already on the roundabout.	easy_mode core30 right_of_way
+Unmarked crossroads	Memory cue: traffic from right. <br>Test answer: Give way to traffic from the right and traffic already on the junction.	easy_mode core30 right_of_way
+Stop sign	Memory cue: full stop. <br>Test answer: Stop fully and give way.	easy_mode core30 junctions
+Yield sign	Memory cue: give way first. <br>Test answer: Give way and stop if necessary.	easy_mode core30 junctions
+Flashing amber light	Memory cue: go carefully, pedestrians first. <br>Test answer: Proceed with caution. Pedestrians have priority.	easy_mode core30 lights crossings
+Steady amber light	Memory cue: amber = stop if safe. <br>Test answer: Stop unless it is unsafe to do so.	easy_mode core30 lights
+Railway flashing red lights	Memory cue: red flashing = stop. <br>Test answer: Stop. A train is coming or the crossing is operating.	easy_mode core30 lights
+Yellow box junction	Memory cue: don’t block the box. <br>Test answer: Do not enter unless you can clear it.	easy_mode core30 markings junctions
+Broken white centre line	Memory cue: broken = cross only if safe. <br>Test answer: You may cross it if it is safe.	easy_mode core30 markings
+Continuous white centre line	Memory cue: solid = stay left. <br>Test answer: Keep left and do not cross it except for access or an emergency.	easy_mode core30 markings
+Broken yellow side line	Memory cue: hard shoulder. <br>Test answer: It marks a hard shoulder.	easy_mode core30 markings
+Single yellow line	Memory cue: no parking at certain times. <br>Test answer: No parking during the times shown.	easy_mode core30 parking markings
+Double yellow lines	Memory cue: no parking anytime. <br>Test answer: No parking at any time.	easy_mode core30 parking markings
+Zig-zag lines at zebra crossing	Memory cue: no parking, no overtaking. <br>Test answer: No parking and no overtaking.	easy_mode core30 crossings markings
+Warning sign shape	Memory cue: warning = yellow diamond. <br>Test answer: Diamond-shaped with a yellow background.	easy_mode core30 signs
+Regulatory sign shape	Memory cue: rule sign = circle. <br>Test answer: Circular.	easy_mode core30 signs
+Motorway sign colour	Memory cue: motorway = blue. <br>Test answer: Blue.	easy_mode core30 signs
+National road sign colour	Memory cue: national = green. <br>Test answer: Green.	easy_mode core30 signs
+Regional/local road sign colour	Memory cue: regional/local = white. <br>Test answer: White with black text.	easy_mode core30 signs
+Tyre tread depth	Memory cue: tread = 1.6. <br>Test answer: 1.6 mm.	easy_mode core30 technical_checks numbers
+2-second rule	Memory cue: dry 2, wet 4. <br>Test answer: Leave 2 seconds in dry conditions and at least 4 in wet conditions.	easy_mode core30 safe_driving
+Junction parking distance	Memory cue: junction = 5 metres. <br>Test answer: Do not park within 5 metres of a junction.	easy_mode core30 parking numbers
+Pedestrian crossing parking distance	Memory cue: crossing = 15 before, 5 after. <br>Test answer: Do not park within 15 metres before or 5 metres after a crossing.	easy_mode core30 parking crossings numbers
+Motorway breakdown	Memory cue: left, hazards, help. <br>Test answer: Pull onto the hard shoulder if possible, use hazard lights, and get help.	easy_mode core30 motorway emergency
