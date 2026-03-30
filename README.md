@@ -147,6 +147,7 @@ Use this file for your main import:
 
 - `irish_driving_test_2026_safe_anki.tsv`
 - `irish_driving_test_2026_visual_anki.tsv`
+- `irish_driving_test_2026_web_remote_anki.tsv`
 
 It is a cleaned version of the current notes with:
 
@@ -160,6 +161,12 @@ The visual deck:
 - adds an image to each card
 - uses images copied from `stephens_materials/`
 - is best when you want stronger visual memory for signs and markings
+
+The web-remote deck:
+
+- adds an internet image URL to each card
+- does not rely on the local Stephen image files
+- is backed by `web_image_sources.csv`, which records the query and source used for each question
 
 ### Recommended deck structure
 
@@ -189,6 +196,8 @@ Use three decks or subdecks:
 `irish_driving_test_2026_safe_anki.tsv` is the better file to import first.
 
 `irish_driving_test_2026_visual_anki.tsv` is the version with images embedded in the answer side.
+
+`irish_driving_test_2026_web_remote_anki.tsv` is the version that points each card at a web image URL instead of a local image file.
 
 Recommended import settings:
 
