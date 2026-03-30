@@ -141,6 +141,19 @@ These are the highest-yield oral-question areas and they also reinforce the prac
 
 ## Anki Strategy
 
+### Cleaned deck in this repo
+
+Use this file for your main import:
+
+- `irish_driving_test_2026_safe_anki.tsv`
+
+It is a cleaned version of the current notes with:
+
+- 2026-safe wording
+- corrected speed-limit cards
+- deduped overlap
+- Anki tags in the third field
+
 ### Recommended deck structure
 
 Use three decks or subdecks:
@@ -166,11 +179,20 @@ Use three decks or subdecks:
 
 `irish_driving_theory_anki.txt` is already in a useful tab-separated format for Anki import.
 
+`irish_driving_test_2026_safe_anki.tsv` is the better file to import first.
+
 Recommended import settings:
 
 - note type: `Basic`
 - field separator: `Tab`
+- map field 1 -> `Front`
+- map field 2 -> `Back`
+- map field 3 -> `Tags`
 - deck: `Irish Driving Test::Official Core`
+
+Recommended first step after import:
+
+- suspend or delete older cards from `irish_driving_theory_anki.txt` that conflict with the cleaned 2026 deck
 
 ## 10-Day Sprint Plan
 
@@ -251,4 +273,3 @@ My best evidence-based conclusion is:
 - they are **not** the official RSA-published practical driving test question bank
 - they are still worth studying because they map closely to what the RSA says is examined
 - they should be cleaned up slightly for 2026 accuracy, especially around speed limits
-
