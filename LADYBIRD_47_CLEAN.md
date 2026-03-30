@@ -1,100 +1,24 @@
-# Irish Practical Driving Test Prep
+# Ladybird 47 Clean Questions
 
-This repo is now focused on the **Irish practical driving test**, not the theory test.
+This file is based on the Ladybird page:
 
-The project is built around:
+- [Driving Test Questions](https://ladybirddrivingschool.ie/driving-test-questions/)
 
-- the Ladybird Driving School practical-question page
-- current official RSA practical-test guidance
-- a short practical study plan
-- printable sheets you can stick on a wall
+It is a **clean practical-study version** of that page, written to be easier to learn and a bit safer for 2026 use.
 
-## What I Carefully Studied
+## Important Notes
 
-Main unofficial source:
+- This is **not** an official RSA bank of exact practical-test questions.
+- It is a very useful practical-test shortlist.
+- Where Ladybird wording needed tightening, the answer here leans toward current RSA wording.
 
-- Ladybird Driving School: [Driving Test Questions](https://ladybirddrivingschool.ie/driving-test-questions/)
+## Key Corrections To Learn
 
-Main official RSA sources checked on 2026-03-30:
+- For **contra-flow bus lanes**, learn: buses only **unless signs also authorise cyclists**.
+- For the **traffic-light sequence**, learn the full Irish sequence: `Green -> Amber -> Red -> Red+Amber -> Green`.
+- For **hatched markings**, learn the conservative practical answer: `Do not enter the area they cover.`
 
-- RSA practical-test page: [Preparing for your test](https://www.rsa.ie/services/learner-drivers/the-driving-test/what-it-is)
-- RSA practical-test booklet: [Preparing for your driving test PDF](https://www.rsa.ie/docs/default-source/services/s1.5-driving-test/2885---rsa-driving-test-booklet_june24_3_web.pdf?sfvrsn=9fd22ffb_11)
-- RSA checklist: [Checklist for your driving test PDF](https://www.rsa.ie/docs/default-source/services/s1.5-driving-test/checklist_for-dl_june24_3_web.pdf?sfvrsn=7d183f26_22)
-- RSA rules/signs source: [Rules of the Road PDF](https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf)
-
-## Bottom Line
-
-The Ladybird page is **useful practical-test prep material**, but it is **not** an official RSA bank of exact practical-test questions.
-
-What the RSA officially confirms:
-
-- the driving test includes questions on the Rules of the Road
-- it includes road-sign identification
-- it includes practical checks of vehicle controls and roadworthiness knowledge
-- preparation should include the RSA booklet, checklist, Rules of the Road, and practice with an instructor
-
-The Ladybird page fits that practical-test syllabus well, so this repo now treats it as the main **study shortlist**, while keeping the RSA material as the official baseline.
-
-## Start Here
-
-If you feel stuck, do this and ignore everything else:
-
-1. Read [`RSA_PRACTICAL_TEST_RESOURCES.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/RSA_PRACTICAL_TEST_RESOURCES.md)
-2. Study [`LADYBIRD_47_CLEAN.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/LADYBIRD_47_CLEAN.md)
-3. Learn [`ROAD_SIGNS_SHORTLIST.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/ROAD_SIGNS_SHORTLIST.md)
-4. Use [`WALL_SHEET.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/WALL_SHEET.md) or the PDFs in [`printables`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/printables)
-5. Book at least one proper pre-test lesson with an ADI
-
-## Repo Map
-
-- [`LADYBIRD_47_CLEAN.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/LADYBIRD_47_CLEAN.md)
-  Cleaned practical-question set based on the Ladybird page, with a few important corrections and notes.
-- [`ROAD_SIGNS_SHORTLIST.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/ROAD_SIGNS_SHORTLIST.md)
-  The practical-test road signs and markings you should know cold.
-- [`RSA_PRACTICAL_TEST_RESOURCES.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/RSA_PRACTICAL_TEST_RESOURCES.md)
-  The best official RSA resources for the practical test.
-- [`PRACTICAL_STUDY_PLAN.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/PRACTICAL_STUDY_PLAN.md)
-  A short first-time-pass plan.
-- [`TECHNICAL_CHECK_PROMPTS.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/TECHNICAL_CHECK_PROMPTS.md)
-  The extra technical-check prompts from the Ladybird page.
-- [`WALL_SHEET.md`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/WALL_SHEET.md)
-  Compact wall version built from the easy core prompts.
-- [`printables/irish-driving-test-wall-sheet.pdf`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/printables/irish-driving-test-wall-sheet.pdf)
-  Printable wall sheet.
-- [`printables/irish-driving-test-ladybird-47.pdf`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/printables/irish-driving-test-ladybird-47.pdf)
-  Printable clean 47-question set.
-
-## Important Current Notes
-
-- From **9 March 2026**, the RSA says you must present a **physical valid motor insurance cert** for the practical test.
-- From **7 February 2025**, many **rural local roads** changed from **80 km/h** to **60 km/h** by default. That matters for your general road-rule understanding, even though the Ladybird 47 page mostly asks about built-up, national, and motorway limits.
-- The Ladybird bus-lane wording is useful but should be learned with the RSA nuance: a contra-flow bus lane is generally buses-only **unless signs also authorise cyclists**.
-- For the traffic-light sequence, learn the full Irish sequence as: **Green -> Amber -> Red -> Red+Amber -> Green**.
-
-## About The Old Deck Files
-
-The repo still contains older experimental Anki files because they may still be useful later.
-
-But the main path is no longer:
-
-- build a perfect custom deck
-
-The main path is now:
-
-- learn the 47 practical questions
-- learn the key road signs/markings
-- do a pre-test lesson
-
-## Printables
-
-- `python3 scripts/build_printables.py` regenerates:
-  - `LADYBIRD_47_CLEAN.md`
-  - `WALL_SHEET.md`
-  - `printables/irish-driving-test-ladybird-47.pdf`
-  - `printables/irish-driving-test-wall-sheet.pdf`
-- GitHub Actions rebuilds the same printables via [`.github/workflows/build-printables.yml`](/Users/johncosnett/Library/Mobile%20Documents/com~apple~CloudDocs/03_HEAD_OFFICE/2026/CAR/DRIVING_TEST_1/.github/workflows/build-printables.yml)
-
-## Ladybird 47 Appendix
+## The 47 Questions
 
 <!-- ALL_QUESTIONS_START -->
 
@@ -252,3 +176,4 @@ This file is generated from `ladybird_47_clean.tsv`.
    Answer: Do not use it in a built-up area between 11:30 pm and 7:00 am unless there is a traffic emergency.
 
 <!-- ALL_QUESTIONS_END -->
+

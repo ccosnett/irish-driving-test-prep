@@ -2,9 +2,7 @@
 
 Fast recall sheet built from `irish_driving_test_easy_mode_core30.tsv`.
 
-Use the memory cue first, then say the short test answer out loud.
-
-## Speed Limits
+Use the memory cue first. Then say the short answer out loud.
 
 - **Built-up area speed limit**
   Memory cue: town = 50
@@ -24,30 +22,18 @@ Use the memory cue first, then say the short test answer out loud.
 - **Posted limit rule**
   Memory cue: sign beats default
   Test answer: You must obey the posted speed limit.
-
-## Right Of Way
-
 - **Roundabout priority**
   Memory cue: already on = priority
   Test answer: Traffic already on the roundabout.
 - **Unmarked crossroads**
   Memory cue: traffic from right
   Test answer: Give way to traffic from the right and traffic already on the junction.
-
-## Junctions
-
 - **Stop sign**
   Memory cue: full stop
   Test answer: Stop fully and give way.
 - **Yield sign**
   Memory cue: give way first
   Test answer: Give way and stop if necessary.
-- **Yellow box junction**
-  Memory cue: don’t block the box
-  Test answer: Do not enter unless you can clear it.
-
-## Traffic Lights
-
 - **Flashing amber light**
   Memory cue: go carefully, pedestrians first
   Test answer: Proceed with caution. Pedestrians have priority.
@@ -57,18 +43,9 @@ Use the memory cue first, then say the short test answer out loud.
 - **Railway flashing red lights**
   Memory cue: red flashing = stop
   Test answer: Stop. A train is coming or the crossing is operating.
-
-## Crossings
-
-- **Zig-zag lines at zebra crossing**
-  Memory cue: no parking, no overtaking
-  Test answer: No parking and no overtaking.
-- **Pedestrian crossing parking distance**
-  Memory cue: crossing = 15 before, 5 after
-  Test answer: Do not park within 15 metres before or 5 metres after a crossing.
-
-## Road Markings
-
+- **Yellow box junction**
+  Memory cue: don’t block the box
+  Test answer: Do not enter unless you can clear it.
 - **Broken white centre line**
   Memory cue: broken = cross only if safe
   Test answer: You may cross it if it is safe.
@@ -84,15 +61,9 @@ Use the memory cue first, then say the short test answer out loud.
 - **Double yellow lines**
   Memory cue: no parking anytime
   Test answer: No parking at any time.
-
-## Parking
-
-- **Junction parking distance**
-  Memory cue: junction = 5 metres
-  Test answer: Do not park within 5 metres of a junction.
-
-## Signs
-
+- **Zig-zag lines at zebra crossing**
+  Memory cue: no parking, no overtaking
+  Test answer: No parking and no overtaking.
 - **Warning sign shape**
   Memory cue: warning = yellow diamond
   Test answer: Diamond-shaped with a yellow background.
@@ -108,21 +79,18 @@ Use the memory cue first, then say the short test answer out loud.
 - **Regional/local road sign colour**
   Memory cue: regional/local = white
   Test answer: White with black text.
-
-## Motorway
-
-- **Motorway breakdown**
-  Memory cue: left, hazards, help
-  Test answer: Pull onto the hard shoulder if possible, use hazard lights, and get help.
-
-## Safe Driving
-
-- **2-second rule**
-  Memory cue: dry 2, wet 4
-  Test answer: Leave 2 seconds in dry conditions and at least 4 in wet conditions.
-
-## Technical Checks
-
 - **Tyre tread depth**
   Memory cue: tread = 1.6
   Test answer: 1.6 mm.
+- **2-second rule**
+  Memory cue: dry 2, wet 4
+  Test answer: Leave 2 seconds in dry conditions and at least 4 in wet conditions.
+- **Junction parking distance**
+  Memory cue: junction = 5 metres
+  Test answer: Do not park within 5 metres of a junction.
+- **Pedestrian crossing parking distance**
+  Memory cue: crossing = 15 before, 5 after
+  Test answer: Do not park within 15 metres before or 5 metres after a crossing.
+- **Motorway breakdown**
+  Memory cue: left, hazards, help
+  Test answer: Pull onto the hard shoulder if possible, use hazard lights, and get help.

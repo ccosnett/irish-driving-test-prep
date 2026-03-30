@@ -6,8 +6,9 @@ on:
     paths:
       - README.md
       - WALL_SHEET.md
-      - irish_driving_test_2026_safe_anki.tsv
+      - ladybird_47_clean.tsv
       - irish_driving_test_easy_mode_core30.tsv
+      - LADYBIRD_47_CLEAN.md
       - scripts/build_printables.py
       - .github/workflows/build-printables.yml
 
@@ -36,5 +37,6 @@ jobs:
           name: irish-driving-test-printables
           path: |
             README.md
+            LADYBIRD_47_CLEAN.md
             WALL_SHEET.md
             printables/*.pdf
